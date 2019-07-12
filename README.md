@@ -10,3 +10,4 @@ Follow these steps to reproduce this repository:
 5. Override the content of `react-mathquill\node_modules\mathquill\build` with the content of `mathquill\build`
 6. Build react-mathquill with `npm build`
 7. Keep the `dist` folder and all files of the root directory.
+8. Edit your package.json and add `"react-mathquill": "git+https://github.com/Entkenntnis/react-mathquill-dist.git"`
